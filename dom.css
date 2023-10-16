@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding-left: 20px;
+    overflow: hidden;
+    top: 0;
+}
+
+.header-list li {
+    list-style: none;
+
+}
+
+.header-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-logo {
+    margin: auto;
+    float: left;
+    font-size: 36px;
+    padding: 25px 10px;
+    letter-spacing: 5px;
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-list {
+    float: right;
+}
+
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+    height: 24px;
+}
+
+
+.header-list .list li:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(54, 50, 50);
+    color: white;
+    height: 120px;
+    text-align: center;
+}
+
+#footer {
+    display: none;
+    
+}
+footer h1 {
+    padding: 40px 0;
+}
+
+#left-nav {
+    width: 30%;
+    font-size: 20px;
+}
+
+
+.input-data {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: aqua;
+    border: dashed white 1px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.input-data:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#color-set {
+    float: right;
+    width: 65%;
+    text-align: center;
+}
+
+.color-content {
+    margin-left: 30px;
+    height: 40px;
+    border-top: solid aqua 5px;
+    border-bottom: solid aqua 5px;
+}

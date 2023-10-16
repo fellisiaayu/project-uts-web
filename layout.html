@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tanggal 11 september 2023</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            top: 50%;
+            color: white;
+        }
+
+        .container .header {
+            height: 100px;
+            background-color: aqua;
+        }
+
+        .container .nav {
+            height: 70px;
+            background-color: aquamarine;
+        }
+
+        .container .content {
+            grid-area: content;
+            background-color: blue;
+            display: flex;
+            height: 500px;
+            display: grid;
+            grid-template-areas: 'cel1 cel2 cel3'
+            ;
+
+        }
+
+        .container .content .cel1 {
+
+            background-color: blueviolet;
+            grid-area: cel1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .content .cel1 .left1 {
+            background-color: blue;
+            width: 70%;
+            height: 80px;
+        }
+
+        .content .cel1 .left2 {
+            width: 70%;
+            background-color: cyan;
+            height: 80px;
+            text-align: center;
+        }
+
+        .content .cel1 .left3 {
+            width: 70%;
+            background-color: gold;
+            height: 80px;
+            text-align: center;
+        }
+
+        .container .content .cel2 {
+            background-color: rgb(254, 68, 0);
+            grid-area: cel2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .content .cel2 .center1 {
+            background-color: rgb(224, 224, 235);
+            width: 70%;
+            height: 80px;
+        }
+
+        .content .cel2 .center2 {
+            width: 70%;
+            background-color: palevioletred;
+            height: 80px;
+            text-align: center;
+        }
+
+        .content .cel2 .center3 {
+            width: 70%;
+            background-color: rgb(235, 242, 243);
+            height: 80px;
+            text-align: center;
+        }
+
+        .container .content .cel3 {
+            background-color: rgb(184, 128, 236);
+            grid-area: cel3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .content .cel3 .right1 {
+            width: 70%;
+            background-color: rgb(203, 225, 253);
+            height: 80px;
+            text-align: center;
+        }
+
+        .content .cel3 .right2 {
+            width: 70%;
+            background-color: rgb(193, 235, 181);
+            height: 80px;
+            text-align: center;
+        }
+
+        .container .footer {
+            background-color: black;
+            height: 69px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">header</div>
+        <div class="nav">Nav</div>
+        <div class="content">
+            <div class="cel1">
+                <div class="left1">Left</div>
+                <div class="left1">Left2</div>
+                <div class="left1">Left3</div>
+            </div>
+            <div class="cel2">
+                <div class="center1">Center</div>
+                <div class="center1">Center2</div>
+                <div class="center1">Center3</div>
+            </div>
+            <div class="cel3">
+                <div class="right1">right</div>
+                <div class="right1">right2</div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+
+    <button id="btn1">klik</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
